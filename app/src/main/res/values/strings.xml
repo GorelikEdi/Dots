@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">DOTS</string>
+    <string name="lvlTextView">Level</string>
+    <string name="logoText" translatable="false">DOTS</string>
+    <string name="play">PLAY</string>
+    <string name="highScores">HIGH SCORES</string>
+    <string name="lineCompleted">WOOOWWW</string>
+    <string name="gamePausedTitle">GAME PAUSED</string>
+    <string name="noPossiblePath">"OH NO!\nYOU BLOCKED DOTS!"</string>
+    <string name="noPossibleMove">"OH NO!\nYOU BLOCKED YOURSELF!"</string>
+    <string name="gameOverTitle">GAME OVER</string>
+    <string name="levelCompletedTitle">LEVEL COMPLETED</string>
+    <string name="levelCompletedText">EXCELLENT!!!</string>
+    <string name="gameCompletedTitle">GAME COMPLETED</string>
+    <string name="gameCompletedText">WELL DONE!\nDOTS ARE GOING TO MISS YOU</string>
+    <string name="options">OPTIONS</string>
+    <string name="score">"SCORE: "</string>
+    <string name="top5">TOP 5</string>
+    <string name="levelsTitle">LEVELS</string>
+    <string name="reset_levels">RESET LEVELS</string>
+    <string name="reset_score">RESET SCORE</string>
+    <string name="delete_all_scores">DELETE ALL SCORES</string>
+    <string name="mute">MUTE MUSIC</string>
+    <string name="unmute">UNMUTE MUSIC</string>
+</resources>

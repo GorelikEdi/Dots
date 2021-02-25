@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play">שחק</string>
+    <string name="lvlTextView">"שלב "</string>
+    <string name="highScores">ניקוד הגבוה</string>
+    <string name="lineCompleted">וואווווו</string>
+    <string name="gamePausedTitle">הפסקת משחק</string>
+    <string name="noPossibleMove">אוי לא!\nחסמת את הכדורים</string>
+    <string name="noPossiblePath">אוי לא!\nחסמת את העצמך</string>
+    <string name="gameOverTitle">סוף המשחק</string>
+    <string name="levelCompletedTitle">השלב הושלם</string>
+    <string name="levelCompletedText">מצויין!!!</string>
+    <string name="gameCompletedTitle">המשחק הושלם</string>
+    <string name="options">אפשרויות</string>
+    <string name="score">"ניקוד: "</string>
+    <string name="top5">טופ 5</string>
+    <string name="gameCompletedText">כל הכבוד!\nהנקודות הולכות להתגעגע אליך</string>
+    <string name="levelsTitle">שלבים</string>
+    <string name="reset_levels">אפס שלבים</string>
+    <string name="reset_score">אפס ניקוד</string>
+    <string name="delete_all_scores">מחק כלל הניקוד</string>
+    <string name="mute">השתק מוזיקה</string>
+    <string name="unmute">נגן מוזיקה</string>
+</resources>

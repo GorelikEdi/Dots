@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dots">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dots"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/dots_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Menu"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Game"
+            android:label="Game"
+            android:parentActivityName=".Levels"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HighScores"
+            android:label="High Scores"
+            android:parentActivityName=".Menu"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Options"
+            android:label="Options"
+            android:parentActivityName=".Menu"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Levels"
+            android:label="Levels"
+            android:parentActivityName=".Menu"
+            android:screenOrientation="portrait">
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <service android:enabled="true" android:name=".BackgroundSoundService" />
+    </application>
+
+</manifest>
